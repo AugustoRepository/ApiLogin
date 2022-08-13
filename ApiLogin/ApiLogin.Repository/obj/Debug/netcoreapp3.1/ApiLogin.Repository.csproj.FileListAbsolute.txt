@@ -1,0 +1,13 @@
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\bin\Debug\netcoreapp3.1\ApiLogin.Repository.deps.json
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\bin\Debug\netcoreapp3.1\ApiLogin.Repository.runtimeconfig.json
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\bin\Debug\netcoreapp3.1\ApiLogin.Repository.runtimeconfig.dev.json
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\bin\Debug\netcoreapp3.1\ApiLogin.Repository.dll
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\bin\Debug\netcoreapp3.1\ApiLogin.Repository.pdb
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.csproj.AssemblyReference.cache
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.AssemblyInfoInputs.cache
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.AssemblyInfo.cs
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.dll
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.pdb
+C:\Users\Rerum\source\repos\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.genruntimeconfig.cache

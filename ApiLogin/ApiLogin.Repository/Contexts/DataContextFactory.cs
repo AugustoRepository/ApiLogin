@@ -14,12 +14,13 @@ namespace ApiLogin.Repository.Contexts
         {
             var configurationBuilder = new ConfigurationBuilder();
             var path = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
-            var root = configurationBuilder.Build();
+            configurationBuilder.AddJsonFile(path, false);
 
-            var connectionStringd = root.GetSection("ConnectionStrings").GetSection("LoginApiDb").Value;
+            var root = configurationBuilder.Build();
+            var connectionString = root.GetSection("connectionStrings").GetSection("JwtLogin").Value;
             var builder = new DbContextOptionsBuilder<DataContext>();
 
-            builder.UseSqlServer(connectionStringd);
+            builder.UseSqlServer(connectionString);
             return new DataContext(builder.Options);
 
         }

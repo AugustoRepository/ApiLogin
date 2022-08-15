@@ -6,13 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{5AADE37A-B199-4980-ACB2-F23ECDB8BD9E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-repository", "2-repository", "{45360854-BCE5-4AC7-89B3-BC4A8F544339}"
-	ProjectSection(SolutionItems) = preProject
-		ApiLogin\appsettings.json = ApiLogin\appsettings.json
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLogin.Presentation", "ApiLogin\ApiLogin.Presentation.csproj", "{4151DF01-E30D-45A3-9D2A-2AED1E896ACD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiLogin.Presentation", "ApiLogin\ApiLogin.Presentation.csproj", "{4151DF01-E30D-45A3-9D2A-2AED1E896ACD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLogin.Repository", "ApiLogin.Repository\ApiLogin.Repository.csproj", "{F512AE7D-CF63-48D2-A8EE-2E255B5E9C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiLogin.Repository", "ApiLogin.Repository\ApiLogin.Repository.csproj", "{F512AE7D-CF63-48D2-A8EE-2E255B5E9C61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

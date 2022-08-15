@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rerum\\source\\repos\\ApiLogin\\ApiLogin.Repository\\ApiLogin.Repository.csproj": {}
+    "D:\\Projetos c#\\ApiLogin\\ApiLogin\\ApiLogin.Repository\\ApiLogin.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rerum\\source\\repos\\ApiLogin\\ApiLogin.Repository\\ApiLogin.Repository.csproj": {
+    "D:\\Projetos c#\\ApiLogin\\ApiLogin\\ApiLogin.Repository\\ApiLogin.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rerum\\source\\repos\\ApiLogin\\ApiLogin.Repository\\ApiLogin.Repository.csproj",
+        "projectUniqueName": "D:\\Projetos c#\\ApiLogin\\ApiLogin\\ApiLogin.Repository\\ApiLogin.Repository.csproj",
         "projectName": "ApiLogin.Repository",
-        "projectPath": "C:\\Users\\Rerum\\source\\repos\\ApiLogin\\ApiLogin.Repository\\ApiLogin.Repository.csproj",
+        "projectPath": "D:\\Projetos c#\\ApiLogin\\ApiLogin\\ApiLogin.Repository\\ApiLogin.Repository.csproj",
         "packagesPath": "C:\\Users\\Rerum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rerum\\source\\repos\\ApiLogin\\ApiLogin.Repository\\obj\\",
+        "outputPath": "D:\\Projetos c#\\ApiLogin\\ApiLogin\\ApiLogin.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T/4vkpx9n8GxEJIyeHRcax+eLCu9akUTic/QrGbwLx2kfUyMvQrAdyXJ8whum7oTaV3ILwKi6dkOi3Q57X+9kA==",
+  "dgSpecHash": "chclmaKIjZZQrxfNVIZ3mYBwTovb1g4eFZYiEtzV9irBu5+mZj7S026ACLML/tA0GkIsqDqtbvhydiMwhyqSng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rerum\\source\\repos\\ApiLogin\\ApiLogin.Repository\\ApiLogin.Repository.csproj",
+  "projectFilePath": "D:\\Projetos c#\\ApiLogin\\ApiLogin\\ApiLogin.Repository\\ApiLogin.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rerum\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Rerum\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

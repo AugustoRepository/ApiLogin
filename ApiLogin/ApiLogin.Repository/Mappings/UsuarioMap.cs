@@ -49,26 +49,6 @@ namespace ApiLogin.Repository.Mappings
                .HasMaxLength(150)
               .IsRequired();
 
-
-            builder.HasMany(u => u.Enderecos)
-               .WithOne(e => e.Usuario)
-               .HasForeignKey(e => e.IdUsuario);
-
-            // Relacionamento com Pedido
-            builder.HasMany(u => u.Pedidos)
-                   .WithOne(p => p.Usuario)
-                   .HasForeignKey(p => p.IdUsuario);
-
-            // Relacionamento com Cartao
-            builder.HasMany(u => u.Cartoes)
-                   .WithOne(c => c.Usuario)
-                   .HasForeignKey(c => c.IdUsuario);
-
-            // Relacionamento com Pix
-            builder.HasMany(u => u.Pixs)
-                   .WithOne(p => p.Usuario)
-                   .HasForeignKey(p => p.IdUsuario);
-
         }
     }
 }

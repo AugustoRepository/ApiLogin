@@ -4,15 +4,18 @@ using System.Text;
 
 namespace ApiLogin.Repository.Entities
 {
-    public  class ItensPedido
+    public  class ItemPedido
     {
         public int IdItemPedido { get; set; }
         public int Quantidade { get; set; }
         public double Preco { get; set; }
-        public double ValorTotal { get { return Quantidade * Preco; } }
+        public double ValorTotal { get; set; }
         // Outras propriedades relacionadas a um item de pedido
 
         public int IdPedido { get; set; }
         public Pedido Pedido { get; set; }
+        public int IdProduto { get; set; }
+        public Produto Produto { get; set; }
+        
     }
 }

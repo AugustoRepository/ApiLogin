@@ -7,11 +7,11 @@ using System.Text;
 
 namespace ApiLogin.Repository.Mappings
 {
-    public  class ItemPedidoMap
+    public  class ItemPedidoMap : IEntityTypeConfiguration<ItemPedido>
     {
-        public void Configure(EntityTypeBuilder<ItensPedido> builder)
+        public void Configure(EntityTypeBuilder<ItemPedido> builder)
         {
-            builder.ToTable("Pedido");
+            builder.ToTable("ItemPedido");
 
             builder.HasKey(u => u.IdItemPedido);
 
@@ -36,9 +36,7 @@ namespace ApiLogin.Repository.Mappings
 
             builder.Property(e => e.Quantidade)
                 .HasColumnName("Quantidade")
-                .HasMaxLength(250);
-
-            
+                .HasMaxLength(250);            
 
         }
     }

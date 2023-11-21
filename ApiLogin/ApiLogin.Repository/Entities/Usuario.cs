@@ -16,13 +16,11 @@ namespace ApiLogin.Repository.Entities
         public bool UsuarioAdministrativo { get; set; }
 
         #region Relacionamentos
-
         public List<Produto> Produtos { get; set; }
         public List<Endereco> Enderecos { get; set; }
         public List<Pedido> Pedidos { get; set; }
         public List<Cartao> Cartoes { get; set; }
         public List<Pix> Pixs { get; set; }
-
         #endregion
     }
 }

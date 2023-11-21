@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ApiLogin.Repository.Mappings
 {
-    public  class PedidoMap
+    public  class PedidoMap : IEntityTypeConfiguration<Pedido>
     {
         public void Configure(EntityTypeBuilder<Pedido> builder)
         {
@@ -20,20 +20,17 @@ namespace ApiLogin.Repository.Mappings
                 .HasColumnName("IdPedido");
 
 
-            builder.Property(e => e.DataPedido)
-                .HasMaxLength(250)
-                .HasColumnName("Rua")
+            builder.Property(e => e.DataPedido)                
+                .HasColumnName("DataPedido")
                 .IsRequired();
 
-            builder.Property(e => e.ValorTotal)
-                .HasMaxLength(250)
-                .HasColumnName("Numero")
+            builder.Property(e => e.ValorTotal)          
+                .HasColumnName("ValorTotal")
                 .IsRequired();
 
             builder.Property(e => e.Status)
-                .HasColumnName("Complemento")
-                .HasMaxLength(250);
-
+                .HasColumnName("Status")
+                .IsRequired();
 
             builder.HasOne(p => p.Usuario)
                .WithMany(u => u.Pedidos)

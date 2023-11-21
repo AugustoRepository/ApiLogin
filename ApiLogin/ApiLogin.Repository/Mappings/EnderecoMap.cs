@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ApiLogin.Repository.Mappings
 {
-    public  class EnderecoMap
+    public  class EnderecoMap : IEntityTypeConfiguration<Endereco>
     {
         public void Configure(EntityTypeBuilder<Endereco> builder)
         {

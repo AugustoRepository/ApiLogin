@@ -10,6 +10,7 @@ namespace ApiLogin.Repository.Entities
         public decimal Valor { get; set; }
         public DateTime DataPagamento { get; set; }
         public int MetodoPagamento { get; set; }
+        public int Status { get; set; }
         // Outras propriedades relacionadas ao pagamento, se necessário
 
         public int PedidoId { get; set; }

@@ -18,5 +18,8 @@ namespace ApiLogin.Repository.Entities
         // Relacionamento 1 para muitos com Usuário
         public int IdUsuario { get; set; }
         public Usuario Usuario { get; set; }
+        public int IdItemPedido { get; set; }
+
+      
     }
 }

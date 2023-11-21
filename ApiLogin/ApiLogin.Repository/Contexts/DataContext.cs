@@ -21,7 +21,7 @@ namespace ApiLogin.Repository.Contexts
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Produto> Produto { get; set; }
         public DbSet<Pedido> Pedido { get; set; }
-        public DbSet<ItensPedido> ItensPedido { get; set; }
+        public DbSet<ItemPedido> ItensPedido { get; set; }
         public DbSet<Pagamento> Pagamento { get; set; }
         public DbSet<Cartao> Cartao { get; set; }
         public DbSet<Endereco> Endereco { get; set; }
@@ -32,6 +32,12 @@ namespace ApiLogin.Repository.Contexts
            
             modelBuilder.ApplyConfiguration(new UsuarioMap());
             modelBuilder.ApplyConfiguration(new ProdutoMap());
+            modelBuilder.ApplyConfiguration(new PixMap());
+            modelBuilder.ApplyConfiguration(new PedidoMap());
+            modelBuilder.ApplyConfiguration(new PagamentoMap());
+            modelBuilder.ApplyConfiguration(new ItemPedidoMap());
+            modelBuilder.ApplyConfiguration(new EnderecoMap());
+            modelBuilder.ApplyConfiguration(new CartaoMap());
 
 
             modelBuilder.Entity<Usuario>(entity =>

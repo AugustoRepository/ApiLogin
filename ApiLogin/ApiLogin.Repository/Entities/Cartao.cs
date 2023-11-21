@@ -9,7 +9,8 @@ namespace ApiLogin.Repository.Entities
         public int IdCartao { get; set; }
         public string NumeroCartao { get; set; }
         public string NomeTitular { get; set; }
-        public DateTime DataValidade { get; set; }
+        public string BandeiraCartao { get; set; }
+        public DateTime ValidadeCartao { get; set; }
         public string CVV { get; set; } // Adicionando o CVV
                                         // Outras propriedades relacionadas ao cartão, se necessário
 

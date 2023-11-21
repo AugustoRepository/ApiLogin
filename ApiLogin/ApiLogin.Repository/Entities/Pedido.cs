@@ -17,7 +17,8 @@ namespace ApiLogin.Repository.Entities
         public int IdUsuario { get; set; }
         public Usuario Usuario { get; set; }
 
-        public List<ItensPedido> ItensPedido { get; set; }
+        public List<ItemPedido> ItensPedido { get; set; }
+        public List<Pagamento> Pagamento { get; set; }
 
 
     }

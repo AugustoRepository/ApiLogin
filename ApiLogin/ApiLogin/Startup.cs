@@ -54,11 +54,10 @@ namespace ApiLogin.Presentation
             #endregion
 
             #region Configuracao de repositorio
-            var connectionString = Configuration.GetConnectionString("JwtLogin");
+            var connectionString = Configuration.GetConnectionString("HortoHouse");
             services.AddDbContext<DataContext>
                 (options => options.UseSqlServer(connectionString));
 
-            services.AddTransient<IPerfilRepository, PerfilRepository>();
             services.AddTransient<IUsuarioRepository, UsuarioRepository>();
             #endregion
 

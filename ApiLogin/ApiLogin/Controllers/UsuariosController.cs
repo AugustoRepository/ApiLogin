@@ -29,7 +29,6 @@ namespace ApiLogin.Presentation.Controllers
                     usuario.Email = model.Email;
                     usuario.Senha = model.Senha;
                     usuario.DataCadastro = DateTime.Now;
-                    usuario.IdPerfil = int.Parse(model.IdPerfil);
 
                     usuarioRepository.Add(usuario);
 
@@ -58,7 +57,6 @@ namespace ApiLogin.Presentation.Controllers
                     usuario.Nome,
                     usuario.Email,
                     usuario.DataCadastro,
-                    usuario.IdPerfil,
                 });
             }
             catch (Exception e)

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration;   
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -17,7 +17,7 @@ namespace ApiLogin.Repository.Contexts
             configurationBuilder.AddJsonFile(path, false);
 
             var root = configurationBuilder.Build();
-            var connectionString = root.GetSection("connectionStrings").GetSection("JwtLogin").Value;
+            var connectionString = root.GetSection("connectionStrings").GetSection("HortoHouse").Value;
             var builder = new DbContextOptionsBuilder<DataContext>();
 
             builder.UseSqlServer(connectionString);

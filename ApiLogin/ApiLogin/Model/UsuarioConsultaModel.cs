@@ -9,6 +9,5 @@ namespace ApiLogin.Presentation.Model
         public string Email { get; set; }
         public string Senha { get; set; }
         public DateTime DataCadastro { get; set; }
-        public int IdPerfil { get; set; }
     }
 }

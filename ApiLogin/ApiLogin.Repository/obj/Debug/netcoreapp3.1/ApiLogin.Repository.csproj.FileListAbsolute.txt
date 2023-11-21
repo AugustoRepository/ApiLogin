@@ -24,3 +24,16 @@ D:\Projetos c#\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\Api
 D:\Projetos c#\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.dll
 D:\Projetos c#\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.pdb
 D:\Projetos c#\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.genruntimeconfig.cache
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\bin\Debug\netcoreapp3.1\ApiLogin.Repository.deps.json
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\bin\Debug\netcoreapp3.1\ApiLogin.Repository.runtimeconfig.json
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\bin\Debug\netcoreapp3.1\ApiLogin.Repository.runtimeconfig.dev.json
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\bin\Debug\netcoreapp3.1\ApiLogin.Repository.dll
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\bin\Debug\netcoreapp3.1\ApiLogin.Repository.pdb
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.csproj.AssemblyReference.cache
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.AssemblyInfoInputs.cache
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.AssemblyInfo.cs
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.csproj.CoreCompileInputs.cache
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.dll
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.pdb
+E:\projetos\ApiLogin\ApiLogin\ApiLogin.Repository\obj\Debug\netcoreapp3.1\ApiLogin.Repository.genruntimeconfig.cache

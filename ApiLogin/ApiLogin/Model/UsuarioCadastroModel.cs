@@ -23,7 +23,5 @@ namespace ApiLogin.Presentation.Model
         [Required(ErrorMessage = "Por favor, confirme a senha do usuário.")]
         public string SenhaConfirmacao { get; set; }
 
-        [Required(ErrorMessage = "Por favor, informe o id do perfil do usuário.")]
-        public string IdPerfil { get; set; }
     }
 }

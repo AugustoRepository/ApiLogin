@@ -21,7 +21,7 @@ namespace ApiLogin.Repository.Contexts
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Produto> Produto { get; set; }
         public DbSet<Pedido> Pedido { get; set; }
-        public DbSet<ItemPedido> ItensPedido { get; set; }
+        public DbSet<ItemPedido> ItemPedido { get; set; }
         public DbSet<Pagamento> Pagamento { get; set; }
         public DbSet<Cartao> Cartao { get; set; }
         public DbSet<Endereco> Endereco { get; set; }

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ApiLogin.Presentation.Model
+namespace ApiLogin.Presentation.Model   
 {
     public class UsuarioCadastroModel
     {
@@ -22,6 +22,11 @@ namespace ApiLogin.Presentation.Model
         [Compare("Senha", ErrorMessage = "Senhas não conferem.")]
         [Required(ErrorMessage = "Por favor, confirme a senha do usuário.")]
         public string SenhaConfirmacao { get; set; }
+        public string Cpf { get; set; }
+        public string Cnpj { get; set; }
+        public string DataCadastro { get; set; }
+        public bool UsuarioAdministrativo { get; set; }
+        
 
     }
 }

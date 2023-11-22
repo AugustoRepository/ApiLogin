@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApiLogin.Presentation.Model
 {
-    public  class ItemPedido
+    public  class ItemPedidoModel
     {
         public int IdItemPedido { get; set; }
         public int Quantidade { get; set; }
@@ -12,10 +12,7 @@ namespace ApiLogin.Presentation.Model
         public double ValorTotal { get; set; }
         // Outras propriedades relacionadas a um item de pedido
 
-        public int IdPedido { get; set; }
-        public Pedido Pedido { get; set; }
-        public int IdProduto { get; set; }
-        public Produto Produto { get; set; }
+       
         
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApiLogin.Presentation.Model
 {
-    public class Pagamento
+    public class PagamentoModel
     {
         public int IdPagamento { get; set; }
         public decimal Valor { get; set; }
@@ -13,7 +13,6 @@ namespace ApiLogin.Presentation.Model
         public int Status { get; set; }
         // Outras propriedades relacionadas ao pagamento, se necessário
 
-        public int PedidoId { get; set; }
-        public Pedido Pedido { get; set; }
+
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApiLogin.Presentation.Model
 {
-    public class Endereco
+    public class EnderecoModel
     {
         public int IdEndereco { get; set; }
         public string Rua { get; set; }
@@ -14,8 +14,6 @@ namespace ApiLogin.Presentation.Model
         public string Estado { get; set; }
         public string CEP { get; set; }
 
-        public int IdUsuario { get; set; }
-        public Usuario Usuario { get; set; }
 
     }
 }

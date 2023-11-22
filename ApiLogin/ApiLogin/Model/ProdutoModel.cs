@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApiLogin.Presentation.Model
 {
-    public class Produto
+    public class ProdutoModel
     {
         public int IdProduto { get; set; }
         public string Nome { get; set; }
@@ -13,12 +13,7 @@ namespace ApiLogin.Presentation.Model
         public double Peso { get; set; }
         public string Informacoes { get; set; }
         public DateTime DataCadastro { get; set; }
-        public string Imagem { get; set; }
-
-        // Relacionamento 1 para muitos com Usuário
-        public int IdUsuario { get; set; }
-        public Usuario Usuario { get; set; }
-        public int IdItemPedido { get; set; }
+        public string Imagem { get; set; }           
 
       
     }

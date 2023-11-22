@@ -59,6 +59,14 @@ namespace ApiLogin.Presentation
                 (options => options.UseSqlServer(connectionString));
 
             services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            services.AddTransient<IProdutoRepository, ProdutoRepository>();
+            services.AddTransient<IPixRepository, PixRepository>();
+            services.AddTransient<IPedidoRepository, PedidoRepository>();
+            services.AddTransient<IPagamentoRepository, PagamentoRepository>();
+            services.AddTransient<IItemPedidoRepository, ItemPedidoRepository>();
+            services.AddTransient<IEnderecoRepository, EnderecoRepository>();
+            services.AddTransient<ICartaoRepository, CartaoRepository>();
+
             #endregion
 
             #region Config JWT
@@ -92,12 +100,14 @@ namespace ApiLogin.Presentation
             services.AddTransient(map => new JwtConfiguration(appSettings));
             #endregion
             #region CORS
+
             services.AddCors(s => s.AddPolicy("DefaultPolicy",
                 builder =>
                 {
                     builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
 
                 }));
+
             #endregion
 
         }

@@ -14,26 +14,26 @@ namespace ApiLogin.Presentation.Controllers
     {
         [HttpPost]
         public IActionResult Post(ProdutoModel model,
-            [FromServices] IProdutoRepository produtoRepository)
+            [FromServices] IProdutoRepository produtoRepository,
+            IUsuarioRepository usuarioRepository)
         {
-            try
+            try 
             {
-                if (produtoRepository.GetbyEmail(model.Email) != null)
-                {
-                    return StatusCode(500, "Erro, o email informado ja encontra-se cadastrado.");
-                }
-                else 
-                {
-                    var produto = new Produto();
-                    produto.Nome = model.Nome;
-                    produto.Email = model.Email;
-                    produto.Senha = model.Senha;
-                    produto.DataCadastro = DateTime.Now;
+                var email = User.Identity.Name; //email do usuário contido no TOKEN..
+                var usuario = usuarioRepository.GetbyEmail(email);
 
-                    produtoRepository.Add(produto);
+                //criando um objeto da entidade produto..
+                var produto = new Produto();
+                produto.Nome = model.Nome;
+                produto.Informacoes = model.Informacoes;
+                produto.DataCadastro = DateTime.Now;               
+                produto.IdUsuario = usuario.IdUsuario;
+                produto.IdUsuario = usuario.IdUsuario;
 
-                    return Ok("Usaurio cadastrado com sucesso.");
-                }
+                //gravando a produto no banco de dados..
+                produtoRepository.Add(produto);
+
+                return Ok("Produto cadastrada com sucesso.");
             }
             catch (Exception e)
             {
@@ -49,7 +49,7 @@ namespace ApiLogin.Presentation.Controllers
             {
                 var email = User.Identity.Name;
 
-                var produto = produtoRepository.GetbyEmail(email);
+                var produto = produtoRepository.(email);
 
                 return Ok(new
                 {

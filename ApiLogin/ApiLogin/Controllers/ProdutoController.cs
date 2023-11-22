@@ -8,6 +8,7 @@ using System;
 
 namespace ApiLogin.Presentation.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProdutosController : ControllerBase
@@ -15,7 +16,7 @@ namespace ApiLogin.Presentation.Controllers
         [HttpPost]
         public IActionResult Post(ProdutoModel model,
             [FromServices] IProdutoRepository produtoRepository,
-            IUsuarioRepository usuarioRepository)
+            [FromServices] IUsuarioRepository usuarioRepository)
         {
             try 
             {
@@ -25,9 +26,12 @@ namespace ApiLogin.Presentation.Controllers
                 //criando um objeto da entidade produto..
                 var produto = new Produto();
                 produto.Nome = model.Nome;
+                produto.Preco = model.Preco;
+                produto.Quantidade = model.Quantidade;
+                produto.Peso = model.Peso;
                 produto.Informacoes = model.Informacoes;
+                produto.Imagem = model.Imagem;
                 produto.DataCadastro = DateTime.Now;               
-                produto.IdUsuario = usuario.IdUsuario;
                 produto.IdUsuario = usuario.IdUsuario;
 
                 //gravando a produto no banco de dados..
@@ -41,28 +45,6 @@ namespace ApiLogin.Presentation.Controllers
             }
         }
 
-        [Authorize]
-        [HttpGet]
-        public IActionResult GetUsaurio([FromServices] IProdutoRepository produtoRepository)
-        {
-            try
-            {
-                var email = User.Identity.Name;
-
-                var produto = produtoRepository.(email);
-
-                return Ok(new
-                {
-                    produto.IdProduto,
-                    produto.Nome,
-                    produto.Email,
-                    produto.DataCadastro,
-                });
-            }
-            catch (Exception e)
-            {
-                return StatusCode(500, "Ocorreu um erro:" + e.Message);
-            }
-        }
+      
     }
 }

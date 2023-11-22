@@ -28,6 +28,9 @@ namespace ApiLogin.Presentation.Controllers
                     usuario.Nome = model.Nome;
                     usuario.Email = model.Email;
                     usuario.Senha = model.Senha;
+                    usuario.Cpf = model.Cpf;
+                    usuario.Cnpj = model.Cnpj;
+                    usuario.UsuarioAdministrativo = model.UsuarioAdministrativo;
                     usuario.DataCadastro = DateTime.Now;
 
                     usuarioRepository.Add(usuario);

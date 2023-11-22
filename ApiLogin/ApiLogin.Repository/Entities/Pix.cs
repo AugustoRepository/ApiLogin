@@ -10,6 +10,7 @@ namespace ApiLogin.Repository.Entities
         public string ChavePix { get; set; }
         public decimal Valor { get; set; }
         public DateTime DataTransacao { get; set; }
+
         // Outras propriedades relacionadas a uma transação PIX, se necessário
 
         public int IdUsuario { get; set; }

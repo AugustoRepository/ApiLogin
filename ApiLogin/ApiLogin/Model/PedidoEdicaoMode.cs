@@ -5,8 +5,9 @@ using System.Text;
 
 namespace ApiLogin.Presentation.Model
 {
-    public class PedidoModel
+    public class PedidoEdicaoModel
     {
+        public int IdPedido { get; set; }
         public DateTime DataPedido { get; set; }
         public double ValorTotal { get; set; }
         // Outras propriedades relacionadas a um pedido

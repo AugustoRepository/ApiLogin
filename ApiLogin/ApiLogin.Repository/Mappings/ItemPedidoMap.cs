@@ -20,10 +20,6 @@ namespace ApiLogin.Repository.Mappings
                 .HasColumnName("IdItemPedido");
 
 
-            builder.Property(e => e.IdItemPedido)              
-                .HasColumnName("Rua")
-                .IsRequired();
-
             builder.Property(e => e.ValorTotal)             
                 .HasColumnName("ValorTotal")
                 .IsRequired();

@@ -6,7 +6,6 @@ namespace ApiLogin.Presentation.Model
 {
     public class PagamentoModel
     {
-        public int IdPagamento { get; set; }
         public decimal Valor { get; set; }
         public DateTime DataPagamento { get; set; }
         public int MetodoPagamento { get; set; }
